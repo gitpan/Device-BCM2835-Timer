@@ -15,7 +15,7 @@ Version 1.01
 
 =cut
 
-our $VERSION = '1.0';
+our $VERSION = '1.01';
 
 my $DEVMEMFH;
 
@@ -28,6 +28,8 @@ This module's C<timer()> method returns the current value of the Raspberry Pi's 
 
     use Device::BCM2835::Timer;
     say Device::BCM2835::Timer::timer();
+
+=head1 FUNCTIONS
 
 =head2 timer()
 
